@@ -1,0 +1,7 @@
+replicaCount: 2
+image:
+  repository: sboopathysdevops/devops-fastapi
+  tag: v6
+service:
+  type: LoadBalancer
+  port: 80
